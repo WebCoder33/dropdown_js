@@ -54,6 +54,7 @@ function dropDownCounter(options) {
                 break;
 
             case 'agreeButton':
+                //create here your function for this data processing
                 showDropDown(dropDown);
                 break;
 
@@ -63,7 +64,7 @@ function dropDownCounter(options) {
        
     }//============================================================
 
-    //Rendering elements dropBox ====================================
+    //Rendering elements dropDown ====================================
     function render(element) {
     
         if (!element) return;
