@@ -4,12 +4,12 @@
   
    //Attention. Only one input in one div!!!
    <div>
-        <input id=''youId' ... >
+        <input id='yourInputId' ... >
    </div>
    
    <script>
         let variable = new dropDownCounter({
-                elem: document.getElementById('youId'),
+                elem: document.getElementById('yourInputId'),
                 items: ['YouItems', ... ],
                 itemsLineHeight: '6px',
                 buttons: true/false,
