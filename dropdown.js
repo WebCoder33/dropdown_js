@@ -2,7 +2,7 @@
  * 
  * //Example =============================================
   
-   //Attention. only one input in one div!!!
+   //Attention. Only one input in one div!!!
    <div>
         <input id=''youId' ... >
    </div>
