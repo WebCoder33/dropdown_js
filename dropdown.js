@@ -1,17 +1,23 @@
-/** Example
+/** name: dropDownCounter v1.0; email: coder33@yandex.ru
  * 
- * <div>
- *  <input id=''youId' ... >
- * </div>
- * 
- *  name: dropDownCounter v1.0; email: coder33@yandex.ru
-    let variable = new dropDownCounter({
-            elem: document.getElementById('youId'),
-            items: ['YouItems', ... ],
-            itemsLineHeight: '6px',
-            buttons: true/false,
-            singleMode: true/false
-        });
+ * //Example =============================================
+  
+   //Attention. only one input in one div!!!
+   <div>
+        <input id=''youId' ... >
+   </div>
+   
+   <script>
+        let variable = new dropDownCounter({
+                elem: document.getElementById('youId'),
+                items: ['YouItems', ... ],
+                itemsLineHeight: '6px',
+                buttons: true/false,
+                singleMode: true/false
+            });
+   </script>
+
+*  //=======================================================
 */
 'use strict'
 
