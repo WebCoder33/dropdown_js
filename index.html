@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="dropdown.js"></script> 
+</head>
+
+<body>
+
+    <div  class="search-guests_amount">
+        <h3 class="guests_amount__header">гости</h3>
+        <input id='guestsCounter' class="guests_amount__input" type="button" value="Сколько комнат"/>
+    </div>
+
+    <div  class="search-guests_amount2">
+        <h3 class="guests_amount__header">гости</h3>
+        <input id='guestsCounter2' class="guests_amount__input" type="button" value="Сколько человек в космосе"/>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <div>
+        <input id='guestsCounter3' class="guests_amount__input" type="button" value="Сколько пивных банок"/>
+    </div>
+
+    
+
+
+
+    <script>
+
+        let counter = new dropDownCounter({
+            elem: document.getElementById('guestsCounter'),
+            items: ['СПАЛЬНИ','КРОВАТИ','ВАННЫЕ КОМНАТЫ'],
+            itemsLineHeight: '6px',
+            buttons: false,
+            singleMode: false
+        });
+
+        let counter2 = new dropDownCounter({
+            elem: document.getElementById('guestsCounter2'),
+            items: ['ВЗРОСЛЫЕ','ДЕТИ','МЛАДЕНЦЫ'],
+            itemsLineHeight: '6px',
+            buttons: true,
+            singleMode: true
+        });
+
+        let counter3 = new dropDownCounter({
+            elem: document.getElementById('guestsCounter3'),
+            items: ['Огромные','Большие','Средние', 'Маленькие', 'Мизерные'],
+            itemsLineHeight: '6px',
+            buttons: true,
+            singleMode: true
+        });
+
+    </script>
+
+</body>
+
+</html>

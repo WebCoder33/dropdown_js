@@ -1,0 +1,32 @@
+.guests_amount__input {
+    width: 320px;
+    height: 44px;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.5);
+    box-sizing: border-box;
+    border-radius: 4px 4px 0px 0px;
+    color: rgba(31, 32, 65, 0.75);
+    padding-left: 9px;
+    text-align: left;
+    background: url(img/expand.png) no-repeat 96% 50%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    cursor: pointer; 
+}
+
+
+
+
+.search-guests_amount2 {
+    position: absolute;
+    left: 400px;
+}
+
+
+
+
+
