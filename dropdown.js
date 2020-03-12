@@ -1,4 +1,9 @@
-/**
+/** Example
+ * 
+ * <div>
+ *  <input id=''youId' ... >
+ * </div>
+ * 
  *  name: dropDownCounter v1.0; email: coder33@yandex.ru
     let variable = new dropDownCounter({
             elem: document.getElementById('youId'),
